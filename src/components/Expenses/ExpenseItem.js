@@ -7,7 +7,7 @@ import React from "react";
 const ExpenseItem = (props) => {
   let title = props.title;
   const clickHandler = () => {
-    console.log("Clicked!");
+    console.log("Clicked!@@");
     title = "Updated!@@";
   };
 
